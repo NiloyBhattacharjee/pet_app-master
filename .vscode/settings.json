@@ -1,0 +1,23 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#41525f",
+        "activityBar.activeBorder": "#261a21",
+        "activityBar.background": "#41525f",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#261a21",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "sash.hoverBorder": "#41525f",
+        "statusBar.background": "#2c3841",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#41525f",
+        "statusBarItem.remoteBackground": "#2c3841",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#2c3841",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#2c384199",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#2c3841",
+    "cmake.sourceDirectory": "${workspaceFolder}/windows"
+}
