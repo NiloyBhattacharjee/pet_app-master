@@ -1,6 +1,6 @@
 # pet_app
 
-A new Flutter project.
+Versioon 2
 
 ## Getting Started
 
