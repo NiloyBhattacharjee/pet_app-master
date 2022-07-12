@@ -6,6 +6,7 @@ import 'package:pet_app/providers/users.dart';
 import 'package:pet_app/router.dart' as router;
 
 import 'package:pet_app/screens/Profile_pet/pet_profile.dart';
+import 'package:pet_app/screens/forum/forum_viewmodel.dart';
 // import 'package:pet_app/screens/Profile_pet/profile_page.dart';
 import 'package:pet_app/screens/introscreen_page.dart';
 import 'package:pet_app/responsive/mobile_screen_layout.dart';
@@ -65,6 +66,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => SignUpViewModel()),
         ChangeNotifierProvider(create: (context) => SearchMealViewModel()),
         ChangeNotifierProvider(create: (context) => UserController()),
+        ChangeNotifierProvider(create: (context) => ForumViewModel()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

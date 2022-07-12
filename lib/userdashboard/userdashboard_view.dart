@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:pet_app/screens/Event/event%20view/home_page.dart';
 // import 'package:pet_app/screens/Event/pages/home_page.dart';
 import 'package:pet_app/screens/Vaxs/add_vax.dart';
+import 'package:pet_app/screens/forum/forum_view.dart';
 import 'package:pet_app/screens/introscreen_page.dart';
 // import 'package:pet_app/screens/vaccination_screen.dart';
 import 'package:pet_app/userdashboard/widgets/cardgradient.dart';
@@ -134,10 +135,12 @@ class UserDashboard extends StatelessWidget {
         children: [
           GestureDetector(
             onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HelpForm()),
-              );
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(builder: (context) => HelpForm()),
+              // );
+
+              Navigator.of(context).pushNamed(ForumScreen.routeName);
             },
             child: Container(
               margin: const EdgeInsets.only(left: 15),

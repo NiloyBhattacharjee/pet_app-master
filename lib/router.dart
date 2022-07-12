@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pet_app/screens/forum/addforum/addforum_view.dart';
+import 'package:pet_app/screens/forum/forum_view.dart';
 import 'package:pet_app/screens/homescreen/homescreen_view.dart';
 // import 'package:pet_app/screens/homescreen/homescreen_view.dart';
 import 'package:pet_app/screens/login/login_view.dart';
@@ -18,6 +20,12 @@ Route<dynamic> createRoute(RouteSettings? settings) {
     case SignUpScreen.routeName:
       return MaterialPageRoute(
           builder: (context) => SignUpScreen(), settings: settings);
+     case ForumScreen.routeName:
+      return MaterialPageRoute(
+          builder: (context) => ForumScreen(), settings: settings);
+    case AddForumScreen.routeName:
+      return MaterialPageRoute(
+          builder: (context) => AddForumScreen(), settings: settings);
     // case SignUpScreen2.routeName:
     //   return MaterialPageRoute(
     //       builder: (context) => SignUpScreen2(), settings: settings);
